@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="bod3">
+<head>
+  <title>Formulario</title>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="../IMG/favicon.png">
+  <link rel="stylesheet" href="../CSS/estiloh.css">
+</head>
+<body>
+
+  <h1 class="tit4">Formulario</h1>
+  <div class="exp6">
+  <p> Un <b>formulario</b> es un conjunto de controles (botones, cajas de texto, casillas de verificación, botones radio, etc) que permiten al usuario introducir datos y enviarlos al servidor web para su procesamiento.</p>
+  <p> Para crear el formulario se utiliza la etiqueta <b>form</b> y entre medias se introducen los conjuntos de controles como: </p>
+    <ul><b>
+      <li>Input type="text"</li>
+      <li>Input type="checkbox"</li>
+      <li>Input type="radio"</li>
+      <li>Input type="submit"</li>
+      <li>Input type="reset"</li>
+      <li>Input type="button"</li>
+    </ul></b>
+  <p> En este formulario únicamente nos vamos a encontrar controles de <b>tipo caja de texto</b> y un botón <b>tipo genérico</b></p>
+  </div>
+    <pre>
+
+      <hr>
+
+    </pre>
+    <form class="formj" action="Formulario.php" method="get">
+      <div class="forml">
+        
+        <p>Fecha: <input class="formj" type="date" name="fecha" size="40"></p>
+
+           <p> Nombre: <input class="formj" type="text" name="nombre" size="40">
+                Apellidos: <input class="formj" type="text" name="apellidos" size="40"> </p>
+               
+               <p> Documento de Identidad: <input class="formj" type="text" name="dni" size="15" placeholder="XXXXXXXX-X">
+                N o. <input class="formj" type="text" name="no" size="25"> 
+                De: <input class="formj" type="text" name="de" size="30"> </p>
+
+                <p> Nacionalidad <input class="formj" type="text" name="nacionalidad" size="15">
+                  Lugar de nacimiento: <input class="formj" type="text" name="nacimiento" size="15"> 
+                  Fecha: <input class="formj" type="date" name="fecha" size="15"> </p>
+
+                  <p> Dirección de residencia: <input class="formj" type="text" name="residencia" size="40">
+                    Ciudad: <input class="formj" type="text" name="ciudad" size="40"> </p>
+
+                    <p> Correo electrónico: <input class="formj" type="email" name="email" size="70" placeholder="example@gmail.com"> </p>
+
+                      <p> Entidad donde trabaja: <input class="formj" type="text" name="trabajo" size="40">
+                       Cargo: <input class="formj" type="text" name="cargo" size="35"> </p>
+
+                       <p> Dirección: <input class="formj" type="text" name="direccion" size="15">
+                        Ciudad: <input class="formj" type="text" name="ciudad" size="15"> 
+                        Teléfono: <input class="formj" type="tel" name="tel" size="15" placeholder="+34 XXX XX XX XX"> </p>
+
+                        <input class="formj" type="button" value="Enviar">
+      </div>
+    </form>
+
+    <pre>
+
+
+
+
+    </pre>
+
+      <a href="../index.html"><img src="../IMG/volver.png" height="45" width="45" alt="Botón"></a>
+
+</body>
+
+</html>

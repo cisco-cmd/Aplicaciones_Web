@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Horario</title>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="../IMG/favicon.png">
+    <link rel="stylesheet" href="../CSS/estiloh.css">
+  </head>
+    <body>
+      <div>
+        <p class="tit1">Horario 21/22<br>2ºSMR</br></p>
+
+        <p class="exp1"> Una <b>tabla</b> en HTML consiste en un conjunto de celdas dentro de filas y columnas. En este caso haremos dos horarios, uno poniendo la asignatura en su celda correspondiente y otra poniendo uniendo las celdas de cada asignatura según el horario que tengan <b>(rowspan/colspan)</b>
+          Para hacer la tabla utilizamos <b>"table"</b>, la creación de las celdas va de derecha a izquierda, para crear una fila utilizamos <b>"tr"</b> y para crear cada una de las celdas se hace con <b>"td y th"</b></p>
+          <pre>
+
+            
+          </pre>
+          <hr>
+
+          <table class="table1">
+
+          <tr>
+
+            <td class="na"> </td>
+            <th class="jcnaw"> Lunes </th>
+            <th class="jcnaw"> Martes </th>
+            <th class="jcnaw"> Miércoles </th>
+            <th class="jcnaw"> Jueves </th>
+            <th class="jcnaw"> Viernes </th>
+
+          </tr>
+        
+          <tr>
+        
+            <th class="jcnawh">8:10 - 9:00</th>
+        
+            <td class="jcngsr">Servicios en Red</td>
+        
+            <td class="jcngsr">Servicios en Red</td>
+        
+            <td class="jcngsor">Sistemas Operativos en Red</td>
+
+            <td class="jcngsr">Servicios en Red</td>
+
+            <td class="jcngsr">Servicios en Red</td>
+        
+          </tr>
+        
+          <tr>
+        
+            <th class="jcnawh">9:00 - 10:00</th>
+        
+            <td class="jcngaw">Aplicaciones Web</td>
+        
+            <td class="jcngsr">Servicios en Red</td>
+        
+            <td class="jcngsor">Sistemas Operativos en Red</td>
+
+            <td class="jcngsr">Servicios en Red</td>
+
+            <td class="jcngsr">Servicios en Red</td>
+        
+          </tr>
+
+          <tr>
+            
+            <th class="jcnawh">10:00 - 11:00</th>
+
+            <td class="jcngaw">Aplicaciones Web</td>
+
+            <td class="jcnglg">Libre Configuración</td>
+
+            <td class="jcnglg">Libre Configuración</td>
+
+            <td class="jcngeie">Empresa e Iniciativa</td>
+
+            <td class="jcngsor">Sistemas Operativos en Red</td>
+
+          </tr>
+
+          <tr>
+            
+            <th class="jcnawh">11:00 - 12:00</th>
+
+            <td class="jcngsi">Seguridad Informática</td>
+
+            <td class="jcnglg">Libre Configuración</td>
+
+            <td class="jcngeie">Empresa e Iniciativa</td>
+
+            <td class="jcngsor">Sistemas Operativos en Red</td>
+
+            <td class="jcngsor">Sistemas Operativos en Red</td>
+
+          </tr>
+
+          <tr>
+            
+            <th class="jcnawh">12:00 - 12:30</th>
+
+            <th colspan="5" class="jcngr">Recreo</td>
+
+          </tr>
+
+          <tr>
+            
+            <th class="jcnawh">12:30 - 13:30</th>
+
+            <td class="jcngsi">Seguridad Informática</td>
+
+            <td class="jcngeie">Empresa e Iniciativa</td>
+
+            <td class="jcngaw">Aplicaciones Web</td>
+
+            <td class="jcngsor">Sistemas Operativos en Red</td>
+
+            <td class="jcngsi">Seguridad Informática</td>
+
+          </tr>
+
+          <tr>
+            
+            <th class="jcnawh"> 13:30 - 14:20 </th>
+
+            <td class="jcngeie">Empresa e Iniciativa</td>
+
+            <td class="jcngsi">Seguridad Informática</td>
+
+            <td class="jcngaw">Aplicaciones Web</td>
+
+            <td class="jcngsor">Sistemas Operativos en Red</td>
+
+            <td class="jcngsi">Seguridad Informática</td>
+
+          </tr>
+      
+        </table>
+
+        <hr>
+
+            <table class="table2">
+
+                  <tr>
+
+                    <td class="na"> </td>
+                    <th class="jcnaw"> Lunes </th>
+                    <th class="jcnaw"> Martes </th>
+                    <th class="jcnaw"> Miércoles </th>
+                    <th class="jcnaw"> Jueves </th>
+                    <th class="jcnaw"> Viernes </th>
+
+                  </tr>
+                
+                  <tr>
+                
+                    <th class="jcnawh">8:10 - 9:00</th>
+                
+                    <td class="jcngsr">Servicios en Red</td>
+                
+                    <td rowspan="2" class="jcngsr">Servicios en Red</td>
+                
+                    <td rowspan="2" class="jcngsor">Sistemas Operativos en Red</td>
+
+                    <td rowspan="2" class="jcngsr">Servicios en Red</td>
+
+                    <td rowspan="2" class="jcngsr">Servicios en Red</td>
+                
+                  </tr>
+                
+                  <tr>
+                
+                    <th class="jcnawh">9:00 - 10:00</th>
+                
+                    <td rowspan="2" class="jcngaw">Aplicaciones Web</td>
+                
+                  </tr>
+
+                  <tr>
+                    
+                    <th class="jcnawh">10:00 - 11:00</th>
+
+                    <td rowspan="2" class="jcnglg">Libre Configuración</td>
+
+                    <td class="jcnglg">Libre Configuración</td>
+
+                    <td class="jcngeie">Empresa e Iniciativa</td>
+
+                    <td rowspan="2" class="jcngsor">Sistemas Operativos en Red</td>
+
+                  </tr>
+
+                  <tr>
+                    
+                    <th class="jcnawh">11:00 - 12:00</th>
+
+                    <td class="jcngsi">Seguridad Informática</td>
+
+                    <td class="jcngeie">Empresa e Iniciativa</td>
+
+                    <td class="jcngsor">Sistemas Operativos en Red</td>
+
+                  </tr>
+
+                  <tr>
+                    
+                    <th class="jcnawh">12:00 - 12:30</th>
+
+                    <th colspan="5" class="jcngr">Recreo</td>
+
+                  </tr>
+
+                  <tr>
+                    
+                    <th class="jcnawh">12:30 - 13:30</th>
+
+                    <td class="jcngsi">Seguridad Informática</td>
+
+                    <td class="jcngeie">Empresa e Iniciativa</td>
+
+                    <td rowspan="2 "class="jcngaw">Aplicaciones Web</td>
+
+                    <td rowspan="2" class="jcngsor">Sistemas Operativos en Red</td>
+
+                    <td rowspan="2" class="jcngsi">Seguridad Informática</td>
+
+                  </tr>
+
+                  <tr>
+                    
+                    <th class="jcnawh"> 13:30 - 14:20 </th>
+
+                    <td class="jcngeie">Empresa e Iniciativa</td>
+
+                    <td class="jcngsi">Seguridad Informática</td>
+
+                  </tr>
+                
+            </table>
+
+            <a href="../index.html"><img src="../IMG/volver.png" height="45" width="45" alt="Botón"></a>
+            
+      </div>
+    </body>
+</html>

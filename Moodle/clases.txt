@@ -1,0 +1,3 @@
+shortname,fullname,category_idnumber,category_path,visible,format
+SOM,Sistemas Operativos Monopuesto,1004,CFGS Sistemas Microinformáticos y Redes > Curso 1,1,topics
+APOF,Aplicaciones Ofimáticas,1005,CFGS Sistemas Microinformáticos y Redes > Curso 2,1,topics
